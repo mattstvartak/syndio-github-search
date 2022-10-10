@@ -10,4 +10,8 @@ Clone the repo and run `yarn install`
 
 After the successfull installation of the packages: `yarn dev`
 
+## Test
+
+To run end to end tests: `yarn test`
+
 Made with ❤️ by Matt Stvartak
