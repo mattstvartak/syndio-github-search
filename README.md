@@ -2,8 +2,6 @@
 
 A simple app that returns the first 25 Github repositories found by user and/or stargazer count.
 
-Spun up using: ![Vite + React + Typescript + Eslint + Prettier](/resources/screenshot.png)
-
 ## Installation
 
 Clone the repo and run `yarn install`
