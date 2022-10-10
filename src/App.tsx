@@ -53,7 +53,7 @@ const App = () => {
     }
 
     setQueryError(
-      "Please use the 'user:<username>' and/or 'stars:<number>..<number>' search format.",
+      'Please use the "user:<username>" and/or "stars:<number>..<number>" search format.',
     );
     return false;
   };
@@ -86,7 +86,7 @@ const App = () => {
 
     Object.keys(data.search.edges).forEach((key: string | number, index: number) =>
       results.push(
-        <Card key={`result-${index}`} className={style.result}>
+        <Card key={`result-${index}`} className={style.result} data-testid="data-card">
           <div>
             <a
               className={style.repoLink}
@@ -156,10 +156,22 @@ const App = () => {
       {loading && <LoadingIcon />}
       <div className={style.searchResults}>
         <span className={style.searchResultsTitle}>SEARCH results:</span>
-        {queryError.length > 0 && <div className={style.syntaxError}>{queryError}</div>}
+        {queryError.length > 0 && (
+          <div className={style.syntaxError} data-testid="syntax-error">
+            {queryError}
+          </div>
+        )}
         {!loading && data && (
           <>
-            {error && <div style={{ color: 'red' }}>Error!</div>}
+            {error && (
+              <div
+                className={style.syntaxError}
+                style={{ color: 'red' }}
+                data-testid="search-input"
+              >
+                {error}
+              </div>
+            )}
             {data && !queryError && getSearchResults(data)}
           </>
         )}

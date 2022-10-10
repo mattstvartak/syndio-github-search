@@ -1,0 +1,83 @@
+{
+  "data": {
+    "search": {
+      "__typename": "SearchResultItemConnection",
+      "edges": [
+        {
+          "__typename": "SearchResultItemEdge",
+          "node": {
+            "__typename": "Repository",
+            "name": "qa-interview-dashboard",
+            "url": "https://github.com/syndio/qa-interview-dashboard",
+            "description": "An example Syndio dashboard used for QA interviews.",
+            "stargazerCount": 1,
+            "licenseInfo": {
+              "__typename": "License",
+              "name": "MIT License"
+            }
+          }
+        },
+        {
+          "__typename": "SearchResultItemEdge",
+          "node": {
+            "__typename": "Repository",
+            "name": "data-engineer-interview",
+            "url": "https://github.com/syndio/data-engineer-interview",
+            "description": null,
+            "stargazerCount": 1,
+            "licenseInfo": null
+          }
+        },
+        {
+          "__typename": "SearchResultItemEdge",
+          "node": {
+            "__typename": "Repository",
+            "name": "syndio.github.io",
+            "url": "https://github.com/syndio/syndio.github.io",
+            "description": "syndio.dev landing page",
+            "stargazerCount": 0,
+            "licenseInfo": null
+          }
+        },
+        {
+          "__typename": "SearchResultItemEdge",
+          "node": {
+            "__typename": "Repository",
+            "name": "frontend-pocs",
+            "url": "https://github.com/syndio/frontend-pocs",
+            "description": "A repo to store/share proof of concepts (POCs)",
+            "stargazerCount": 0,
+            "licenseInfo": null
+          }
+        },
+        {
+          "__typename": "SearchResultItemEdge",
+          "node": {
+            "__typename": "Repository",
+            "name": "backend-engineer-app",
+            "url": "https://github.com/syndio/backend-engineer-app",
+            "description": "Instructions for a code sample for backend engineering candidates.",
+            "stargazerCount": 0,
+            "licenseInfo": null
+          }
+        },
+        {
+          "__typename": "SearchResultItemEdge",
+          "node": {
+            "__typename": "Repository",
+            "name": "cloud-interview-app",
+            "url": "https://github.com/syndio/cloud-interview-app",
+            "description": "A microservice application used during interviews at Syndio.",
+            "stargazerCount": 0,
+            "licenseInfo": {
+              "__typename": "License",
+              "name": "MIT License"
+            }
+          }
+        }
+      ],
+      "repositoryCount": 6,
+      "userCount": 0
+    }
+  }
+}
