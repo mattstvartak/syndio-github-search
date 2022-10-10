@@ -1,0 +1,95 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.app-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.searchForm {
+  display: flex;
+}
+
+.searchInput {
+  flex-grow: 1;
+}
+
+.inputLabel {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+.searchResults {
+  padding-top: 60px;
+}
+
+.searchResultsTitle {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.result > div {
+  grid-area: auto / auto / auto / span 1;
+}
+
+.result > div:nth-child(1) {
+  grid-area: auto / 1 / auto / span 10;
+}
+
+.syntaxError {
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+.repoLink {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.smallText {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.smallCaps {
+  color: dimgray;
+  display: block;
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.repoDetailBlock {
+  border-left: 1px solid black;
+  padding: 10px;
+  margin: -10px 0;
+}
+
+.repoDetailBlock:last-child {
+  padding-right: 0;
+}
+
+.repoDescription {
+  font-size: 14px;
+}
