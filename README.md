@@ -6,6 +6,12 @@ A simple app that returns the first 25 Github repositories found by user and/or 
 
 Clone the repo and run `yarn install`
 
+## Setup
+
+You will need a Github Personal Access Token. The Github GraphQL API requires this.
+
+One you get your access token paste it where it says `<Access Token>` in `main.tsx` on line 22.
+
 ## Start
 
 After the successfull installation of the packages: `yarn dev`
