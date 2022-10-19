@@ -19,7 +19,7 @@ const AppWrapper = () => {
     });
 
     const authLink = setContext((_, { headers }) => {
-      const token = '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';
+      const token = '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';
 
       return {
         headers: {
